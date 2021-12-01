@@ -1,0 +1,24 @@
+Name: Point Of Sale
+App Package: com.pointofsale.nexchar
+App Activitiy: com.pointofsale.nexchar.MainActivity
+username:gift_shop
+password:12345
+
+hints:
+sendkeys
+
+
+//Mobile details
+		dc.setCapability("deviceName","Galaxy S9+");
+		dc.setCapability("udid","235021d0ca0c7ece");
+		dc.setCapability("platformName","Android");
+		dc.setCapability("platformVersion","10");
+		
+		//App Details
+		dc.setCapability("appPackage", "com.pointofsale.nexchar");
+		dc.setCapability("appActivity", "com.pointofsale.nexchar.MainActivity");
+
+
+com.pointofsale.nexchar:id/user_name
+com.pointofsale.nexchar:id/password
+com.pointofsale.nexchar:id/email_sign_in_button
