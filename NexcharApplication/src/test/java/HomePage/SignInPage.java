@@ -24,6 +24,9 @@ public class SignInPage {
 		dc.setCapability("appPackage", "com.pointofsale.nexchar");
 		dc.setCapability("appActivity", "com.pointofsale.nexchar.MainActivity");
         
+		//save info capability
+		dc.setCapability("noReset", "true");
+		dc.setCapability("fullReset", "false");
 		//192.168.0.100:5555
 		
 		//Server setup
@@ -53,10 +56,14 @@ public class SignInPage {
 		WebElement password =Nexobj.findElement(By.id("com.pointofsale.nexchar:id/password"));
 		password.sendKeys("      "); */
 		
+		//backbutton
+		//Nexobj.navigate().back();
 		
 		//Signin Button 
 		WebElement signinbtn =Nexobj.findElement(By.id("com.pointofsale.nexchar:id/email_sign_in_button"));
 		signinbtn.click();
+		
+		
 		
 		
 	

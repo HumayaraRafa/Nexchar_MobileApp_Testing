@@ -1,0 +1,12 @@
+package HomePage;
+
+public class AfterLoginPage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}
